@@ -22,7 +22,8 @@ namespace Calc_Attempt_Two
             double result = 0;
             double firstOperator = Convert.ToDouble(textBox1.Text);
             double secondOperator = Convert.ToDouble(textBox2.Text);
-            switch (((Button)sender).Name)
+            ITwoOperatorsCalculator calc = TwoOperatorsFactory.CreateCalculator(((Button)sender).Name);
+          /*  switch (((Button)sender).Name)
             {
                 case "button1":
                     result = firstOperator + secondOperator;
@@ -36,18 +37,14 @@ namespace Calc_Attempt_Two
                 case "button4":
                     result = firstOperator/secondOperator;
                     break;
-                case "button5":
-                    textBox1.Text = "";
-                    textBox2.Text = "";
-                    textBox3.Text = "";
-                    break;
-               default:
+                default:
                     throw new Exception("Unknown operation");
 
-            }
+            }*/
+           result = calc.Calculate(firstOperator, secondOperator);
             textBox3.Text = result.ToString();
         }
-        private void button3_Click(object sender, EventArgs e)
+      /*  private void button3_Click(object sender, EventArgs e)
        {
            double firstOperator = Convert.ToDouble(textBox1.Text);
            double secondOperator = Convert.ToDouble(textBox2.Text);
@@ -107,6 +104,6 @@ namespace Calc_Attempt_Two
         private void label4_Click(object sender, EventArgs e)
         {
 
-        }
+        }*/
     }
 }
