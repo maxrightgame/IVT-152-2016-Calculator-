@@ -19,19 +19,25 @@ namespace Calc_Attempt_Two
 
         private void button3_Click(object sender, EventArgs e)
         {
-            double result = Convert.ToDouble(textBox1.Text)*Convert.ToDouble(textBox2.Text);
+            double firstOperator = Convert.ToDouble(textBox1.Text);
+            double secondOperator = Convert.ToDouble(textBox2.Text);
+            double result = firstOperator*secondOperator;
             textBox3.Text = result.ToString();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            double result = Convert.ToDouble(textBox1.Text) + Convert.ToDouble(textBox2.Text);
+            double firstOperator = Convert.ToDouble(textBox1.Text);
+            double secondOperator = Convert.ToDouble(textBox2.Text);
+            double result = firstOperator + secondOperator;
             textBox3.Text = result.ToString();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            double result = Convert.ToDouble(textBox1.Text) - Convert.ToDouble(textBox2.Text);
+            double firstOperator = Convert.ToDouble(textBox1.Text);
+            double secondOperator = Convert.ToDouble(textBox2.Text);
+            double result = firstOperator - secondOperator;
             textBox3.Text = result.ToString();
         }
 
@@ -39,7 +45,9 @@ namespace Calc_Attempt_Two
         {
            if (Convert.ToInt32(textBox2.Text) != 0)
             {
-                double result = Convert.ToDouble(textBox1.Text)/Convert.ToDouble(textBox2.Text);
+                double firstOperator = Convert.ToDouble(textBox1.Text);
+                double secondOperator = Convert.ToDouble(textBox2.Text);
+                double result = firstOperator / secondOperator;
                 textBox3.Text = result.ToString();
             }
             else textBox3.Text = "0";
