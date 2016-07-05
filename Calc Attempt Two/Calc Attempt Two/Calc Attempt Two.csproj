@@ -56,13 +56,15 @@
     <Compile Include="Functions with one operator\Ln.cs" />
     <Compile Include="Functions with one operator\Log10.cs" />
     <Compile Include="Functions with two operators\Multiplication.cs" />
+    <Compile Include="IOneOperatorCalculator.cs" />
+    <Compile Include="OneOperatorFactory.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ITwoOperatorsCalculator.cs" />
+    <Compile Include="Functions with two operators\ITwoOperatorsCalculator.cs" />
     <Compile Include="Functions with one operator\Sqrt.cs" />
     <Compile Include="Functions with one operator\Squaring.cs" />
     <Compile Include="Functions with two operators\Subtraction.cs" />
-    <Compile Include="TwoOperatorsFactory.cs" />
+    <Compile Include="Functions with two operators\TwoOperatorsFactory.cs" />
     <Compile Include="Functions with two operators\X to grage.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>

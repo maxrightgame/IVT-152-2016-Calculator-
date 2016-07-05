@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Calc_Attempt_Two
 {
-    public class Squaring : ITwoOperatorsCalculator
+    public class Squaring : IOneOperatorsCalculator
     {
-        public double Calculate(double firstOperator, double secondOperator)
+        public double Calculate(double firstOperator)
         {
             return firstOperator*firstOperator;
         }

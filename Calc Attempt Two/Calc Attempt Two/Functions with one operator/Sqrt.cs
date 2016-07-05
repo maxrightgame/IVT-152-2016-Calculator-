@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 
 namespace Calc_Attempt_Two
 {
-    public class Sqrt : ITwoOperatorsCalculator
+    public class Sqrt : IOneOperatorsCalculator
     {
-        public double Calculate(double firstOperator, double secondOperator)
+        public double Calculate(double firstOperator)
         {
             return Math.Sqrt(firstOperator);
         }

@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Calc_Attempt_Two
 {
-    public class Ln : ITwoOperatorsCalculator
+    public class Ln : IOneOperatorsCalculator
     {
-        public double Calculate(double firstOperator, double secondOperator)
+        public double Calculate(double firstOperator)
         {
             return Math.Log(firstOperator);
         }
