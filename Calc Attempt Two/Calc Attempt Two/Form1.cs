@@ -41,7 +41,7 @@ namespace Calc_Attempt_Two
                     textBox2.Text = "";
                     textBox3.Text = "";
                     break;
-                default:
+               default:
                     throw new Exception("Unknown operation");
 
             }
@@ -100,6 +100,11 @@ namespace Calc_Attempt_Two
         }
 
         private void button8_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label4_Click(object sender, EventArgs e)
         {
 
         }
