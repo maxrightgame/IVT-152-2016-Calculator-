@@ -17,7 +17,7 @@ namespace Calc_Attempt_Two.Functions_with_two_operators
                 case "button4":
                     return new Division();
                 case "button8":
-                    return new XToGrage();
+                    return new XToGrade();
                 case "button14":
                     return new sqrt_x_y();
                 default:

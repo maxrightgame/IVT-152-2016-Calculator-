@@ -67,11 +67,11 @@
     <Compile Include="Functions with one operator\Squaring.cs" />
     <Compile Include="Functions with two operators\Subtraction.cs" />
     <Compile Include="Functions with two operators\TwoOperatorsFactory.cs" />
-    <Compile Include="Functions with two operators\X to grage.cs" />
+    <Compile Include="Functions with two operators\X to grade.cs" />
     <Compile Include="Functions with one operator\sin.cs" />
     <Compile Include="Functions with two operators\sqrt x y.cs" />
     <Compile Include="Functions with one operator\tan.cs" />
-    <Compile Include="Functions with one operator\10_to_grage.cs" />
+    <Compile Include="Functions with one operator\10_to_grade.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>

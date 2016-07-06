@@ -26,7 +26,7 @@ namespace Calc_Attempt_Two
                 case "button13":
                     return new tan();
                 case "button15":
-                    return new _10to_grage();
+                    return new _10to_grade();
                 case "button16":
                     return new exp();
                 default:
