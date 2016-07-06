@@ -19,6 +19,8 @@ namespace Calc_Attempt_Two
                     return new Ln();
                 case "button10":
                     return new Abs();
+                case "button11":
+                    return new sin();
                 default:
                     throw new Exception("Unknown operation");
             }
