@@ -58,6 +58,7 @@
     <Compile Include="Functions with two operators\sqrt x y Tests.cs" />
     <Compile Include="Functions with one operator\SqrtTests.cs" />
     <Compile Include="Functions with two operators\SubstractionTests.cs" />
+    <Compile Include="Functions with two operators\TwoOperatorsFactoryTests.cs" />
     <Compile Include="Functions with two operators\X to grade Tests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
