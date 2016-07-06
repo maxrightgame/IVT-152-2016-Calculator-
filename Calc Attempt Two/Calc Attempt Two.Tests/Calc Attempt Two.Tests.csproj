@@ -47,6 +47,7 @@
     <Compile Include="Functions with one operator\AbsTests.cs" />
     <Compile Include="Functions with one operator\LnTests.cs" />
     <Compile Include="Functions with one operator\Log10Tests.cs" />
+    <Compile Include="Functions with one operator\OneOperatorFactoryTests.cs" />
     <Compile Include="Functions with one operator\sinTests.cs" />
     <Compile Include="Functions with one operator\SquaringTests.cs" />
     <Compile Include="Functions with one operator\tanTests.cs" />
