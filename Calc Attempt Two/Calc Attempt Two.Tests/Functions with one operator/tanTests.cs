@@ -1,6 +1,7 @@
-﻿using NUnit.Framework;
+﻿using Calc_Attempt_Two.Functions_with_one_operator;
+using NUnit.Framework;
 
-namespace Calc_Attempt_Two.Tests.Functions_with_two_operators
+namespace Calc_Attempt_Two.Tests.Functions_with_one_operator
 {
     [TestFixture]
     public class tanTests
@@ -10,7 +11,7 @@ namespace Calc_Attempt_Two.Tests.Functions_with_two_operators
         [TestCase(0, 0)]
         public void tanTest(double first, double expected)
         {
-            IOneOperatorsCalculator calculator = new tan();
+            IOneOperatorsCalculator calculator = new Tan();
             double result = calculator.Calculate(first);
             Assert.AreEqual(expected, result, 0.0001);
         }

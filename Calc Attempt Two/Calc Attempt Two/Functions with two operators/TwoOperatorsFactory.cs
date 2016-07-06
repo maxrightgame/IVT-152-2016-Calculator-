@@ -19,7 +19,7 @@ namespace Calc_Attempt_Two.Functions_with_two_operators
                 case "button8":
                     return new XToGrade();
                 case "button14":
-                    return new sqrt_x_y();
+                    return new SqrtXy();
                 default:
                     throw new Exception("Unknown operation");
             }

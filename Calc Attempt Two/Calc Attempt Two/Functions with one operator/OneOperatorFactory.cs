@@ -1,7 +1,6 @@
 ﻿using System;
-using Calc_Attempt_Two.Functions_with_one_operator;
 
-namespace Calc_Attempt_Two
+namespace Calc_Attempt_Two.Functions_with_one_operator
 {
     public static class OneOperatorFactory
     {
@@ -20,11 +19,11 @@ namespace Calc_Attempt_Two
                 case "button10":
                     return new Abs();
                 case "button11":
-                    return new sin();
+                    return new Sin();
                 case "button12":
-                    return new cos();
+                    return new Cos();
                 case "button13":
-                    return new tan();
+                    return new Tan();
                 case "button15":
                     return new _10to_grade();
                 case "button16":

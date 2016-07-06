@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Windows.Forms;
+using Calc_Attempt_Two.Functions_with_one_operator;
 using Calc_Attempt_Two.Functions_with_two_operators;
 
 namespace Calc_Attempt_Two

@@ -12,7 +12,7 @@ namespace Calc_Attempt_Two.Tests.Functions_with_two_operators
         [TestCase("button3", typeof(Multiplication))]
         [TestCase("button4", typeof(Division))]
         [TestCase("button8", typeof(XToGrade))]
-        [TestCase("button14", typeof(sqrt_x_y))]
+        [TestCase("button14", typeof(SqrtXy))]
         public void CalculateTest(string name, Type type)
         {
             var calculator = TwoOperatorsFactory.CreateCalculator(name);

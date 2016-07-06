@@ -1,6 +1,7 @@
-﻿using NUnit.Framework;
+﻿using Calc_Attempt_Two.Functions_with_one_operator;
+using NUnit.Framework;
 
-namespace Calc_Attempt_Two.Tests.Functions_with_two_operators
+namespace Calc_Attempt_Two.Tests.Functions_with_one_operator
 {
     [TestFixture]
     public class _10to_gradeTests

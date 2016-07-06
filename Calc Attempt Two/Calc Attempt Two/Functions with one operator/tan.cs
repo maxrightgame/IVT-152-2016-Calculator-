@@ -1,8 +1,8 @@
 ﻿using System;
 
-namespace Calc_Attempt_Two
+namespace Calc_Attempt_Two.Functions_with_one_operator
 {
-    public class tan: IOneOperatorsCalculator
+    public class Tan: IOneOperatorsCalculator
     {
         public double Calculate(double firstOperator)
         {

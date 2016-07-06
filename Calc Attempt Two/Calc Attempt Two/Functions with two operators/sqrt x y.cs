@@ -1,9 +1,8 @@
 ﻿using System;
-using Calc_Attempt_Two.Functions_with_two_operators;
 
-namespace Calc_Attempt_Two
+namespace Calc_Attempt_Two.Functions_with_two_operators
 {
-    public class sqrt_x_y: ITwoOperatorsCalculator
+    public class SqrtXy: ITwoOperatorsCalculator
     {
         public double Calculate(double firstOperator, double secondOperator)
         {
