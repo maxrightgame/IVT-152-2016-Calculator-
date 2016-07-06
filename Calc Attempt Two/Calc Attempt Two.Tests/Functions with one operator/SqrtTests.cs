@@ -1,5 +1,4 @@
 ﻿using Calc_Attempt_Two.Functions_with_one_operator;
-using Calc_Attempt_Two.Functions_with_two_operators;
 using NUnit.Framework;
 
 namespace Calc_Attempt_Two.Tests.Functions_with_two_operators

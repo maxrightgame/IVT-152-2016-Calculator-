@@ -45,6 +45,11 @@
   <ItemGroup>
     <Compile Include="Functions with one operator\10_to_gradeTests.cs" />
     <Compile Include="Functions with one operator\AbsTests.cs" />
+    <Compile Include="Functions with one operator\LnTests.cs" />
+    <Compile Include="Functions with one operator\Log10Tests.cs" />
+    <Compile Include="Functions with one operator\sinTests.cs" />
+    <Compile Include="Functions with one operator\SquaringTests.cs" />
+    <Compile Include="Functions with one operator\tanTests.cs" />
     <Compile Include="Functions with two operators\AdditionTests.cs" />
     <Compile Include="Functions with one operator\cosTests.cs" />
     <Compile Include="Functions with two operators\DivisionTests.cs" />

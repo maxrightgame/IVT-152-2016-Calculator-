@@ -4,15 +4,14 @@ using NUnit.Framework;
 namespace Calc_Attempt_Two.Tests.Functions_with_two_operators
 {
     [TestFixture]
-    public class AbsTests
+    public class Log10Tests
     {
-        [TestCase(-100, 100)]
-        [TestCase(-12, 12)]
-        [TestCase(0, 0)]
-        [TestCase(5625, 5625)]
-        public void AbsTest(double first, double expected)
+        [TestCase(10,1)]
+        [TestCase(100, 2)]
+        [TestCase(1, 0)]
+        public void Log10Test(double first, double expected)
         {
-            IOneOperatorsCalculator calculator = new Abs();
+            IOneOperatorsCalculator calculator = new Log10();
             double result = calculator.Calculate(first);
             Assert.AreEqual(expected, result);
         }

@@ -4,15 +4,15 @@ using NUnit.Framework;
 namespace Calc_Attempt_Two.Tests.Functions_with_two_operators
 {
     [TestFixture]
-    public class AbsTests
+    public class SquaringTests
     {
-        [TestCase(-100, 100)]
-        [TestCase(-12, 12)]
+        [TestCase(4, 16)]
+        [TestCase(2, 4)]
+        [TestCase(10, 100)]
         [TestCase(0, 0)]
-        [TestCase(5625, 5625)]
-        public void AbsTest(double first, double expected)
+        public void SquaringTest(double first, double expected)
         {
-            IOneOperatorsCalculator calculator = new Abs();
+            IOneOperatorsCalculator calculator = new Squaring();
             double result = calculator.Calculate(first);
             Assert.AreEqual(expected, result);
         }
