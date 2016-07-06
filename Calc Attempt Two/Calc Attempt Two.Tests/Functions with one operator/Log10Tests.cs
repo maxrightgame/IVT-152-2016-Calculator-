@@ -1,4 +1,5 @@
-﻿using Calc_Attempt_Two.Functions_with_one_operator;
+﻿using System;
+using Calc_Attempt_Two.Functions_with_one_operator;
 using NUnit.Framework;
 
 namespace Calc_Attempt_Two.Tests.Functions_with_two_operators
@@ -15,5 +16,12 @@ namespace Calc_Attempt_Two.Tests.Functions_with_two_operators
             double result = calculator.Calculate(first);
             Assert.AreEqual(expected, result);
         }
+            [Test]
+        public void SqrtZero()
+        {
+            IOneOperatorsCalculator calculator = new Log10();
+            Assert.Throws<Exception>(() => calculator.Calculate(-12));
+        }
+    }
     }
 }

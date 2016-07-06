@@ -6,6 +6,10 @@ namespace Calc_Attempt_Two.Functions_with_one_operator
     {
         public double Calculate(double firstOperator)
         {
+            if (firstOperator < 0)
+            {
+                throw new Exception("Negative root");
+            }
             return Math.Sqrt(firstOperator);
         }
     }

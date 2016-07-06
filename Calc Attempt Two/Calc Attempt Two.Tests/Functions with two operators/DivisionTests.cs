@@ -1,4 +1,5 @@
-﻿using Calc_Attempt_Two.Functions_with_two_operators;
+﻿using System;
+using Calc_Attempt_Two.Functions_with_two_operators;
 using NUnit.Framework;
 
 namespace Calc_Attempt_Two.Tests.Functions_with_two_operators
@@ -15,6 +16,12 @@ namespace Calc_Attempt_Two.Tests.Functions_with_two_operators
             ITwoOperatorsCalculator calculator = new Division();
             double result = calculator.Calculate(first, second);
             Assert.AreEqual(expected, result);
+        }
+        [Test]
+        public void DivisionByZero()
+        {
+            ITwoOperatorsCalculator calculator = new Division();
+            Assert.Throws<Exception>(() => calculator.Calculate(12, 0));
         }
     }
 }
