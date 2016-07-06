@@ -68,6 +68,7 @@
     <Compile Include="Functions with two operators\TwoOperatorsFactory.cs" />
     <Compile Include="Functions with two operators\X to grage.cs" />
     <Compile Include="sin.cs" />
+    <Compile Include="tan.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>

@@ -23,6 +23,8 @@ namespace Calc_Attempt_Two
                     return new sin();
                 case "button12":
                     return new cos();
+                case "button13":
+                    return new tan();
                 default:
                     throw new Exception("Unknown operation");
             }
