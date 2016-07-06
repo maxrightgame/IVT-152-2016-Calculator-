@@ -25,6 +25,10 @@ namespace Calc_Attempt_Two
                     return new cos();
                 case "button13":
                     return new tan();
+                case "button15":
+                    return new _10to_grage();
+                case "button16":
+                    return new exp();
                 default:
                     throw new Exception("Unknown operation");
             }
