@@ -44,7 +44,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="cos.cs" />
+    <Compile Include="Functions with one operator\cos.cs" />
     <Compile Include="Functions with one operator\Abs.cs" />
     <Compile Include="Functions with two operators\Addition.cs" />
     <Compile Include="Functions with two operators\Division.cs" />
@@ -67,8 +67,9 @@
     <Compile Include="Functions with two operators\Subtraction.cs" />
     <Compile Include="Functions with two operators\TwoOperatorsFactory.cs" />
     <Compile Include="Functions with two operators\X to grage.cs" />
-    <Compile Include="sin.cs" />
-    <Compile Include="tan.cs" />
+    <Compile Include="Functions with one operator\sin.cs" />
+    <Compile Include="sqrt x y.cs" />
+    <Compile Include="Functions with one operator\tan.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>

@@ -18,6 +18,8 @@ namespace Calc_Attempt_Two.Functions_with_two_operators
                     return new Division();
                 case "button8":
                     return new XToGrage();
+                case "button14":
+                    return new sqrt_x_y();
                 default:
                     throw new Exception("Unknown operation");
             }
