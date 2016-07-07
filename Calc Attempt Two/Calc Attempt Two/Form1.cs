@@ -43,5 +43,12 @@ namespace Calc_Attempt_Two
                 MessageBox.Show("Error: " + exp.Message);
             }
         }
+
+        private void button17_Click(object sender, EventArgs e)
+        {
+
+            Form2 f = new Form2();
+            f.Show();
+        }
     }
 }

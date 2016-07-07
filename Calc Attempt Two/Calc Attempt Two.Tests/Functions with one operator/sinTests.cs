@@ -4,7 +4,7 @@ using NUnit.Framework;
 namespace Calc_Attempt_Two.Tests.Functions_with_one_operator
 {
     [TestFixture]
-    public class sinTests
+    public class SinTests
     {
         [TestCase(1, 0.8414)]
         [TestCase(2, 0.9092)]
