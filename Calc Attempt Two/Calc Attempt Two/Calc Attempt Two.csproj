@@ -80,7 +80,7 @@
     <Compile Include="Functions with one operator\10_to_grade.cs" />
     <Compile Include="Sorting\BubbleSort.cs" />
     <Compile Include="Sorting\ISortingSorter.cs" />
-    <Compile Include="Sorting\QuickSort.cs" />
+    <Compile Include="Sorting\SelectionSort.cs" />
     <Compile Include="Sorting\SortingFactory.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>

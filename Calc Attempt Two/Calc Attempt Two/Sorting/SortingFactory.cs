@@ -11,7 +11,7 @@ namespace Calc_Attempt_Two.Sorting
                 case "button2":
                     return new BubbleSort();
                 case "button1":
-                    return new QuickSort();
+                    return new SelectionSort();
                 default: 
                     throw new Exception();
             }
