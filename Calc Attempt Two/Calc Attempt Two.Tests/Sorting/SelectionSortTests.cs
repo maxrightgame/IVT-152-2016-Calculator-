@@ -1,5 +1,4 @@
-﻿using Calc_Attempt_Two.Functions_with_one_operator;
-using Calc_Attempt_Two.Sorting;
+﻿using Calc_Attempt_Two.Sorting;
 using NUnit.Framework;
 
 namespace Calc_Attempt_Two.Tests.Sorting

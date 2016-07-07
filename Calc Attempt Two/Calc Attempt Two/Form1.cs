@@ -14,9 +14,10 @@ namespace Calc_Attempt_Two
 
         private void button_Click(object sender, EventArgs e)
         {
+            
             try
             {
-                var firstOperator = Convert.ToDouble(textBox1.Text);
+                var firstOperator = Convert.ToDouble(textBox1.Text); 
                 var secondOperator = Convert.ToDouble(textBox2.Text);
                 var calc = TwoOperatorsFactory.CreateCalculator(((Button)sender).Name);
                 double result = calc.Calculate(firstOperator, secondOperator);
