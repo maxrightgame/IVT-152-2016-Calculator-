@@ -5,6 +5,9 @@ namespace Calc_Attempt_Two.Functions_with_one_operator
     /// <summary>
     /// This is factory for one operators functions such as Logarithm, Trigonometric, etc.
     /// </summary>
+    /// <returns>
+    /// Returns completed calculations
+    /// </returns>
     public static class OneOperatorFactory
     {
         public static IOneOperatorsCalculator CreateCalculator(string calculatorName)

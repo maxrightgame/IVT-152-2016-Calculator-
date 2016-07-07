@@ -1,7 +1,13 @@
 ﻿namespace Calc_Attempt_Two.Sorting
 {
+   
     public class BubbleSort:ISortingSorter
     {
+        /// <summary>
+        /// BubbleSort
+        /// </summary>
+        /// <param name="arr"></param>
+        /// <returns></returns>
         public int[] Sort(int[] arr)
         {
             for (int write = 0; write < arr.Length; write++)

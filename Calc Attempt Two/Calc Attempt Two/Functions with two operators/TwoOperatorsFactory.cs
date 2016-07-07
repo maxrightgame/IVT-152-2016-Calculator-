@@ -4,6 +4,11 @@ namespace Calc_Attempt_Two.Functions_with_two_operators
 {
     public static class TwoOperatorsFactory
     {
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="calculatorName"></param>
+        /// <returns></returns>
         public static ITwoOperatorsCalculator CreateCalculator(string calculatorName)
         {
             switch (calculatorName)

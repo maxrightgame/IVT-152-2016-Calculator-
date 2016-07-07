@@ -2,6 +2,12 @@
 {
     public class Subtraction : ITwoOperatorsCalculator
     {
+        /// <summary>
+        /// Subtraction
+        /// </summary>
+        /// <param name="firstOperator"></param>
+        /// <param name="secondOperator"></param>
+        /// <returns></returns>
         public double Calculate(double firstOperator, double secondOperator)
         {
             return firstOperator - secondOperator;

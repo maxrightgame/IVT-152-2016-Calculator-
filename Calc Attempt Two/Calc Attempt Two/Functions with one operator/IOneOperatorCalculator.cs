@@ -2,6 +2,7 @@
 {
     public interface IOneOperatorsCalculator
     {
+       
         double Calculate(double firstOperator);
     }
 }

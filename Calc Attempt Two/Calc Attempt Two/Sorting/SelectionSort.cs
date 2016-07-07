@@ -2,6 +2,11 @@
 {
     public class SelectionSort : ISortingSorter
     {
+        /// <summary>
+        /// SelectionSort
+        /// </summary>
+        /// <param name="arr"></param>
+        /// <returns></returns>
         public int[] Sort(int[] arr)
         {
             int length = arr.Length;
