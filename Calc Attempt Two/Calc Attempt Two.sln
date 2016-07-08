@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calc Attempt Two", "Calc At
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calc Attempt Two.Tests", "Calc Attempt Two.Tests\Calc Attempt Two.Tests.csproj", "{EB446FD7-CC70-4B33-AED2-3949A884514B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebInterface", "WebInterface\WebInterface.csproj", "{3CC66A6E-2FF0-45AF-A293-F766A137893D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{EB446FD7-CC70-4B33-AED2-3949A884514B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EB446FD7-CC70-4B33-AED2-3949A884514B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EB446FD7-CC70-4B33-AED2-3949A884514B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CC66A6E-2FF0-45AF-A293-F766A137893D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CC66A6E-2FF0-45AF-A293-F766A137893D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CC66A6E-2FF0-45AF-A293-F766A137893D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CC66A6E-2FF0-45AF-A293-F766A137893D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
